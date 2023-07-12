@@ -87,7 +87,7 @@ export default function page() {
             </span>
           </div>
           <div className="flex gap-3 mb-3">
-            <p className="text-slate-300 flex gap-3 md:text-2xl text-base">
+            <p className="text-slate-300 flex md:text-2xl text-base">
               Forgot password?
               <Link href="/forgot-password" className="text-black font-bold">
                 Reset
