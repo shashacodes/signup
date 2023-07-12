@@ -26,7 +26,7 @@ export default function page() {
 
         <Image src="/audio.gif" alt="gif" width={250} height={200} />
 
-        <div className="flex flex-col md:gap-5 text-white">
+        <div className="flex flex-col md:gap-5 mb-4 text-white">
           <span className="flex flex-row border-b-[1px] font-extrabold border-slate-200 justify-between items-center pb-2 space-x-10 text-xl">
             <p className="">ibsharon19@gmail.com</p>
             <span>
