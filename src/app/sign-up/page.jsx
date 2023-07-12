@@ -47,8 +47,8 @@ export default function page() {
         <FaMicrophoneAlt size={30} style={{ color: "black" }} />
       </aside>
 
-      <div className="flex flex-col justify-between md:mb-6 md:gap-5 p-10 bg-black basis-[40%]">
-        <div className="flex  flex-col gap-2">
+      <div className="flex flex-col justify-between md:gap-5 p-10 bg-black basis-[40%]">
+        <div className="flex md:mb-6  flex-col gap-2">
           <h1 className="text-4xl mx-auto font-extrabold text-white">
             Sign up
           </h1>
