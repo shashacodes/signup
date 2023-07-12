@@ -115,7 +115,7 @@ export default function page() {
             <p className="pr-10 mx-auto"> Continue with google </p>
           </span>
           <span>
-            <p className="text-black text-xl">
+            <p className="text-black md:text-xl text-sm">
               Already have an account?
               <Link href="/" className="text-red-600 font-extrabold">
                 <span className="border rounded-xl bg-white p-2 hover:bg-transparent">

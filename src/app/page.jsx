@@ -87,7 +87,7 @@ export default function page() {
             </span>
           </div>
           <div className="flex gap-3 pb-2">
-            <p className="text-slate-300 flex pb-2 gap-3 text-2xl">
+            <p className="text-slate-300 flex pb-2 gap-3 md:text-2xl text-base">
               Forgot password?
               <Link href="/forgot-password" className="text-black font-bold">
                 Reset
@@ -104,7 +104,7 @@ export default function page() {
             </p>
           </div>
           <Link href="/sign-up">
-            <div className="flex gap-3">
+            <div className="flex gap-3 md:text-lg text-sm">
               <p>Don't have an account?</p>
               <button className="border rounded-md bg-white md:w-[120px] p-1 hover:opacity-40 text-black">
                 Sign up
