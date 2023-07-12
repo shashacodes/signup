@@ -48,7 +48,7 @@ export default function page() {
         <FaMicrophoneAlt size={30} style={{ color: "black" }} />
       </aside>
 
-      <div className="flex flex-col justify-between gap-5 md:p-10 p-6 bg-black text-white md:basis-[40%] w-full ">
+      <div className="flex flex-col justify-between gap-5 md:p-8 p-6 bg-black text-white md:basis-[40%] w-full ">
         <div className="flex flex-col gap-2">
           <span className="flex flex-row justify-between items-center">
             <h1 className="md:text-4xl text-xl text-left md:font-extrabold font-bold">
@@ -66,7 +66,7 @@ export default function page() {
         />
 
         <div className="flex flex-col gap-6">
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col">
             <span className="flex flex-row border rounded-md p-1 justify-between items-center text-2xl">
               <input
                 placeholder="Email ID"
