@@ -15,7 +15,7 @@ export default function page() {
     alert("your account has been successfully created");
   };
   return (
-    <div className="w-full flex md:flex-row flex-col  bg-[url('/bg2.jpg')] bg-no-repeat bg-cover justify-between items-stretch h-screen text-white bg-white">
+    <div className="w-full flex md:flex-row flex-col  bg-[url('/bg2.jpg')] bg-no-repeat bg-cover justify-between items-stretch h-full text-white bg-white">
       <div className="flex flex-col justify-between md:gap-5 md:p-8 p-3">
         <div className="flex flex-col md:gap-2 mx-auto">
           <h1 className="text-4xl  text-left font-extrabold">Speak your</h1>
