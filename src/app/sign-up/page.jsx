@@ -47,7 +47,7 @@ export default function page() {
         <FaMicrophoneAlt size={30} style={{ color: "black" }} />
       </aside>
 
-      <div className="flex flex-col justify-between md:gap-5 p-10 bg-black basis-[40%]">
+      <div className="flex flex-col justify-between p-10 bg-black basis-[40%]">
         <div className="flex md:mb-6  flex-col gap-2">
           <h1 className="text-4xl mx-auto font-extrabold text-white">
             Sign up
@@ -112,8 +112,8 @@ export default function page() {
             <FcGoogle size={20} style={{ color: "" }} />
             <p className="pr-10 mx-auto"> Continue with google </p>
           </span>
-          <span className="mb-6">
-            <p className="text-black md:text-xl text-sm">
+          <span className="md:mb-6">
+            <p className="text-white md:text-xl text-sm">
               Already have an account?
               <Link href="/" className="text-red-600 font-extrabold">
                 <span className="border rounded-xl bg-white p-2 hover:bg-transparent">
