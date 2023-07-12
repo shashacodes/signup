@@ -104,7 +104,7 @@ export default function page() {
             SIGN UP
           </button>
           <p className="mx-auto">------------------ or ---------------------</p>
-          <span className="flex flex-row rounded-xl font-extrabold border bg-slate-300 text-black ">
+          <span className="flex flex-row rounded-xl font-extrabold border mb-6 bg-slate-300 text-black ">
             <FaFacebook size={20} style={{ color: "blue" }} />
             <p className="pr-10 mx-auto"> Continue with facebook </p>
           </span>
