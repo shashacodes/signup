@@ -18,9 +18,7 @@ export default function page() {
     <div className="w-full flex md:flex-row flex-col  bg-[url('/bg2.jpg')] bg-no-repeat bg-cover justify-between items-stretch h-screen text-white bg-white">
       <div className="flex flex-col justify-between md:gap-5 md:p-8 p-3">
         <div className="flex flex-col md:gap-2 mx-auto">
-          <h1 className="md:text-4xl text:2xl text-left font-extrabold">
-            Speak your
-          </h1>
+          <h1 className="text-4xl  text-left font-extrabold">Speak your</h1>
           <p className="text-lg pb-1 md:font-bold font-normal">
             Login ID & Password.
           </p>
@@ -65,12 +63,12 @@ export default function page() {
           alt="fav"
           className="border rounded-full mx-auto"
         />
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col">
           <div className="flex flex-col gap-3">
             <span className="flex flex-row border-b-[1px] space-x-10 text-xl justify-between items-center border-slate-200">
               <input
                 placeholder="FullName"
-                className=" pb-2 text-base bg-transparent placeholder:text-slate-200 text-white"
+                className=" text-base bg-transparent placeholder:text-slate-200 text-white"
               />
               <p>
                 <BsFillPersonPlusFill size={30} style={{ color: "black" }} />
@@ -88,7 +86,7 @@ export default function page() {
             <span className="flex flex-row border-b-[1px] space-x-10 text-xl justify-between items-center border-slate-200">
               <input
                 placeholder="Password (6 or more chars)"
-                className=" pb-2 text-base bg-transparent placeholder:text-slate-200 text-white"
+                className=" text-base bg-transparent placeholder:text-slate-200 text-white"
               />
               <p>
                 <TbPassword size={30} style={{ color: "black" }} />
@@ -114,7 +112,7 @@ export default function page() {
             <FcGoogle size={20} style={{ color: "" }} />
             <p className="pr-10 mx-auto"> Continue with google </p>
           </span>
-          <span>
+          <span className="mb-6">
             <p className="text-black md:text-xl text-sm">
               Already have an account?
               <Link href="/" className="text-red-600 font-extrabold">

@@ -1,8 +1,6 @@
 import "./globals.css";
 import Image from "next/image";
 import React from "react";
-// import { FaMicrophoneAlt } from "react-icons/fa";
-// import { HiCheckCircle } from "react-icons/hi";
 import { Inter } from "next/font/google";
 
 const inter = Inter({

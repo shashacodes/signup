@@ -27,7 +27,7 @@ export default function page() {
           height={200}
           className="md:w-[250px] w-[130px]"
         />
-        <div className="flex flex-col justify-center md:gap-6 gap-1 mx-auto">
+        <div className="flex flex-col mb-3 justify-center md:gap-6 gap-1 mx-auto">
           <span className="flex flex-row font-extrabold border-b-[1px] border-slate-200 justify-between items-center pb-2 md:space-x-10 space-x-5 text-2xl">
             <p className="">ibsharon19@gmail.com</p>
             <span>
