@@ -83,7 +83,7 @@ export default function page() {
                 <GoMail size={30} style={{ color: "black" }} />
               </p>
             </span>
-            <span className="flex flex-row border-b-[1px] space-x-10 text-xl justify-between items-center border-slate-200">
+            <span className="flex flex-row border-b-[1px] space-x-10 text-xl justify-between mb-4 items-center border-slate-200">
               <input
                 placeholder="Password (6 or more chars)"
                 className=" text-base bg-transparent placeholder:text-slate-200 text-white"
@@ -99,7 +99,7 @@ export default function page() {
           </p>
           <button
             onClick={handleClick}
-            className="mx-auto font-extrabold rounded-xl text-center text-black text-xl border h-[50px] w-[100px] bg-white hover:bg-transparent hover:text-white"
+            className="mx-auto font-extrabold rounded-xl text-center text-black text-xl border h-[30px] w-[100px] bg-white hover:bg-transparent hover:text-white"
           >
             SIGN UP
           </button>
