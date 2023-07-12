@@ -43,7 +43,7 @@ export default function page() {
         </div>
       </div>
 
-      <aside className="border pr-5 items-center p-5 rounded-full outline-offset-4 w-fit m-auto outline-double outline-[10px] shadow-xl shadow-sky-400 outline-slate-50">
+      <aside className="border pr-5 items-center p-5 rounded-full outline-offset-4 w-fit m-auto outline-double md:outline-[10px] shadow-xl shadow-sky-400 outline-slate-50">
         <FaMicrophoneAlt size={30} style={{ color: "black" }} />
       </aside>
 
@@ -108,7 +108,7 @@ export default function page() {
             <FaFacebook size={20} style={{ color: "blue" }} />
             <p className="pr-10 mx-auto"> Continue with facebook </p>
           </span>
-          <span className="flex flex-row rounded-xl font-extrabold border bg-slate-300 text-black ">
+          <span className="flex flex-row rounded-xl font-extrabold border mb-6 bg-slate-300 text-black ">
             <FcGoogle size={20} style={{ color: "" }} />
             <p className="pr-10 mx-auto"> Continue with google </p>
           </span>
