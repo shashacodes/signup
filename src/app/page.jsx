@@ -112,11 +112,11 @@ export default function page() {
             </div>
           </Link>
 
-          <span className="flex flex-row  font-normal border rounded-md bg-slate-300 md:p-1">
+          <span className="flex flex-row  font-normal border rounded-md bg-slate-300 ">
             <FaFacebook size={20} style={{ color: "blue" }} className="mt-1" />
             <p className="pr-10 mx-auto"> Continue with facebook </p>
           </span>
-          <span className="flex flex-row  font-normal border rounded-md bg-slate-300 md:p-1 ">
+          <span className="flex flex-row  font-normal border rounded-md bg-slate-300  ">
             <FcGoogle size={20} className="mt-1" />
             <p className="pr-10 mx-auto"> Continue with google </p>
           </span>
